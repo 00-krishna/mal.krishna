@@ -1,0 +1,18 @@
+{
+  "20250930T080709.709780Z": {
+    "command": "auto-photos",
+    "location": "",
+    "status": "pending",
+    "progress": 0,
+    "lastUpdate": "2025-09-30T08:07:09.709780Z",
+    "error": ""
+  },
+  "20250930T120319.474756Z": {
+    "command": "auto-photos",
+    "location": "",
+    "status": "pending",
+    "progress": 0,
+    "lastUpdate": "2025-09-30T12:03:19.476866Z",
+    "error": ""
+  }
+}

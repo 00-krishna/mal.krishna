@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self';">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Delete Control</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #80deea);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      color: #0077cc;
+      margin-bottom: 15px;
+      font-size: 1.8em;
+    }
+
+    p {
+      color: #555;
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .status {
+      background: #f1f1f1;
+      padding: 15px;
+      border-radius: 10px;
+      min-height: 80px;
+      text-align: left;
+      font-family: monospace;
+      color: #333;
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Electron + Firebase Control</h1>
+    <p>Listening for commands in Firebase...</p>
+    <div class="status">
+      Waiting for commands...
+    </div>
+  </div>
+</body>
+</html>
